@@ -1,0 +1,35 @@
+/* src/components/Header.css */
+
+.header {
+  background-color: #27085f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.header nav {
+  margin-top: 10px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+  color: #b3afc6;  /* Ajout d'une couleur verte lorsque le lien est survolé */
+}
+
+.header nav a.active {
+  color: #28a745;  /* Définir la couleur active pour le lien */
+}
